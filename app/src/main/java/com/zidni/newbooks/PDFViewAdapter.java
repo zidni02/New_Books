@@ -42,14 +42,14 @@ public class PDFViewAdapter extends Activity implements OnPageChangeListener, On
 
     }
 
-    public void sajid1(PDFView pdfView) {
+    public void sajid1() {
+        pdfView.findViewById(R.id.sajid1);
         displayFromAsset();
 
     }
 
 
     public void displayFromAsset() {
-//        pdfFileName = assetFileName;
 
        pdfView.fromAsset("Paradoxical_Sajid1.pdf")
                 .defaultPage(pageNumber)
