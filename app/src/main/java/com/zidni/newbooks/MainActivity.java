@@ -33,8 +33,7 @@ public class MainActivity extends Activity {
                 switch (position){
                     case 0:
                         PDFViewAdapter pdfViewAdapter=new PDFViewAdapter();
-                        PDFView pdfView=((PDFViewAdapter)context).findViewById(R.id.sajid1);
-                        pdfViewAdapter.sajid1(pdfView);
+                        pdfViewAdapter.sajid1();
                         break;
 
                 }
